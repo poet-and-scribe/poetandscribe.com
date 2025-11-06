@@ -74,12 +74,12 @@
       "oF" : 0
     },
     "\/assets\/styles\/main-min.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
       "ft" : 16,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/main-min-min.css",
       "oF" : 0,
@@ -94,12 +94,12 @@
       "oF" : 0
     },
     "\/assets\/styles\/main.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
       "ft" : 16,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/main-min.css",
       "oF" : 0,
@@ -154,12 +154,12 @@
       "oF" : 0
     },
     "\/kirby\/assets\/whoops.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
       "ft" : 16,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/kirby\/assets\/whoops-min.css",
       "oF" : 0,
@@ -2142,12 +2142,12 @@
       "rq" : 75
     },
     "\/kirby\/panel\/dist\/css\/style.min.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
       "ft" : 16,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/kirby\/panel\/dist\/css\/style.min-min.css",
       "oF" : 0,
@@ -5958,24 +5958,24 @@
       "oF" : 0
     },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
       "ft" : 16,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css",
       "oF" : 0,
       "pg" : 0
     },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
       "ft" : 16,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css",
       "oF" : 0,
@@ -8750,7 +8750,7 @@
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
-    "hideConfigFile" : 0,
+    "hideConfigFile" : 1,
     "jsCheckerReservedNamesString" : "",
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
@@ -8770,13 +8770,13 @@
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 2,
+      "autoOutputPathStyle" : 0,
       "combineImports" : 0,
       "cssoStyle" : 1,
       "purgeCSSStyle" : 0,
-      "shouldRunAutoprefixer" : 1,
+      "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 1
+      "sourceMapStyle" : 2
     },
     "languageDefaultsGIF" : {
       "autoOutputAction" : 0,
@@ -9030,7 +9030,7 @@
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,
-      "removeVariables" : 0,
+      "removeVariables" : 1,
       "safelistEntries" : [
 
       ],
