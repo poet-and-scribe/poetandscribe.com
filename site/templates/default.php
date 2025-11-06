@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Poet & Scribe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?= css([
-      'assets/styles/main-min.css',
+      'assets/styles/main.css',
     ]) ?>
   </head>
   <body class="wrapper">
@@ -26,80 +26,86 @@
       <p class="lede">Helping organizations create digital products that work for everyone through accessible design systems and thoughtful strategy.</p>
     </header>
     <main>
-      <article>
-        <h2>About us</h2>
-        <p>Poet & Scribe was founded in 2022 by product development director and principal designer, Jonathan Stephens.</p>
-        <p>With P&S, <em>he/they</em> partners with trusted organizations and freelancers to provide a rounded and reliable service.</p>
+      <article class="flow">
+        <section id="about">
+          <h2>About us</h2>
+          <p>Poet & Scribe was founded in 2022 by product development director and principal designer, Jonathan Stephens.</p>
+          <p>Through P&S, Jonathan partners with trusted organizations and freelancers to provide a rounded and reliable service.</p>
+        </section>
+        <hr/>
+        <section id="services">
+          <h2>What we do</h2>
+          <p class="">We specialize in product strategy and design systems for scale-ups, non-profits, and global enterprises.</p>
 
-        <h3>What we do</h2>
-        <p class="">We specialize in product strategy and design systems for scale-ups, non-profits, and global enterprises.</p>
+          <h3>Design systems</h3>
+          <p>If you're looking to fix disjointed user interfaces, improve internal efficiency, or build a resilient product—we're available to help with short-to-mid-term design system projects.</p>
+          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're accessible, clear, and deliver compounding value to users and your bottom line.</p>
 
-        <h3>Design systems</h3>
-        <p>If you're looking to fix disjointed user interfaces, improve internal efficiency, or build a resilient product—we're available to help with short-to-mid-term design system projects.</p>
-        <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're accessible, clear, and deliver compounding value to users and your bottom line.</p>
+          <h3>Product strategy</h3>
+          <p>We’ve worked in product development throughout our careers—from a decade of scaling global enterprises to consulting with agencies, start-ups, and governments.</p>
+          <p>Each organization is unique, in their own season of growth and scale. We focus on understanding your context, co-creating paths forward together.</p>
+          <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
 
-        <h3>Product strategy</h3>
-        <p>We’ve worked in product development throughout our careers—from a decade of scaling global enterprises to consulting with agencies, start-ups, and governments.</p>
-        <p>Each client is unique, in their own season of growth & scale. We focus on understanding <em>your context</em> and co-creating paths forward together.</p>
-        <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy and coaching sessions to support you.</p>
+          <h3>Can’t find what you need?</h3>
+          <p>We’re happy to chat if you need help with something we haven’t mentioned.</p>
+          <p>If we can’t help, we’ll work to connect you with someone who can—we’ve met a lot of people throughout our careers.</p>
+        </section>
+        <hr/>
+        <section id="past">
+          <h2>Who we’ve worked with</h2>
+          <p>We’ve built our careers working on digital products for some local & global organizations and teams, including:</p>
+          <ul>
+            <li>Booking.com</li>
+            <li>United States' Space Force</li>
+            <li>Leantime.io</li>
+            <li>Strategi Consulting</li>
+            <li>Trailmarks HQ</li>
+            <li>Smashing Boxes</li>
+          </ul>
+        </section>
+        <section id="approach">
+          <h2>Our approach</h2>
+          <p>Poet & Scribe isn't just our name, it defines how we operate.</p>
 
-        <h3>Can’t find what you need?</h3>
-        <p>We’re happy to chat if you need help with something we haven’t mentioned.</p>
-        <p>If we can’t help, we’ll work to connect you with someone who can—we’ve met a lot of people throughout our careers.</p>
+          <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning. Scribes preserve knowledge, translating meaning into collective memory. They context-builders, shaping how communities grow & scale beyond any one human's capability.</p>
 
-        <h2>Who we’ve worked with</h2>
-        <p>We’ve built our careers working on digital products for some local & global organizations and teams, including:</p>
-        <ul>
-          <li>Booking.com</li>
-          <li>United States' Space Force</li>
-          <li>Leantime.io</li>
-          <li>Strategi Consulting</li>
-          <li>Trailmarks HQ</li>
-          <li>Smashing Boxes</li>
-        </ul>
+          <p>In product development, it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery & practices—creating shared understanding at every layer.</p>
 
-        <h2>Our ethos</h2>
-        <p>Poet & Scribe isn't just our name, it defines how we operate.</p>
+          <p>We help organizations build that capacity. We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
+        </section>
+        <section id="principles">
+          <h2>Guiding principles</h2>
+          <p>If you want to work with disruptors, trend-setters, rockstars, magic formulas, or thing-breakers—that's not how we work.</p>
 
-        <p>Poets take what’s hard to articulate and find language for it. They're sensemakers of patterns and meaning. Scribes preserve knowledge, ensuring continuity. They build context, shaping how communities grow & scale beyond any one human's capability.</p>
+          <ul>
+            <li>
+              <p><strong>Coalitions over competition.</strong>
+              We believe in collective power over individual genius, building with others rather than against them.</p>
+            </li>
+            <li>
+              <p><strong>Spectrums over binaries.</strong>
+              We recognize that most decisions exist on a continuum, embracing nuance and context over rigid absolutes.</p>
+            </li>
+            <li>
+              <p><strong>Curiosity over assumptions.</strong>
+              We ask questions and listen deeply, approaching each project with genuine interest rather than predetermined solutions.</p>
+            </li>
+            <li>
+              <p><strong>Sustainability over extraction.</strong>
+              We build systems that grow stronger & improve over time rather than chasing for short-term gains.</p>
+            </li>
+            <li>
+              <p><strong>Iterations over perfection.</strong>
+              We refine our work through cycles, using collaboration & feedback to progress rather than flawless first attempts or big reveals.</p>
+            </li>
+          </ul>
+        </section>
+        <section id="cta">
+          <h2>Let’s talk</h2>
+          <p>If you’re interested in the support we offer, we’d love to chat</p>
 
-        <p>They create shared understanding.</p>
-
-        <p>In product development, it's much of the same. Constantly translating between perspectives: user research &#8594; strategy; strategy → systems; systems → practices.</p>
-
-        <p>We help organizations get better at this. We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build.</p>
-
-
-        <h2>Guiding principles</h2>
-        <p>We're not disruptors, trend-setters, revolutionaries, troublemakers, or thing-breakers.</p>
-
-        <ul>
-          <li>
-            <strong>Coalition, not competition.</strong>
-            <p>We believe in collective power over individual heroics, building with others rather than against them.</p>
-          </li>
-          <li>
-            <strong>Spectrums, not binaries.</strong>
-            <p>We recognize that most decisions exist on a continuum, embracing nuance and context over rigid absolutes.</p>
-          </li>
-          <li>
-            <strong>Curiosity, not assumptions.</strong>
-            <p>We ask questions and listen deeply, approaching each project with genuine interest rather than predetermined solutions.</p>
-          </li>
-          <li>
-            <strong>Sustainable, not extractive.</strong>
-            <p>We build for longevity and regeneration, creating systems that endure and improve over time rather than depleting resources for short-term gains.</p>
-          </li>
-          <li>
-            <strong>Iteration, not perfection.</strong>
-            <p>We embrace learning through doing, refining our work through cycles of testing and feedback rather than seeking flawless first attempts.</p>
-          </li>
-        </ul>
-
-        <h2>Let’s talk</h2>
-        <p>If you’re interested in the support we offer, we’d love to chat</p>
-
-        <p>Email us at hello@poetandscribe.com.</p>
+          <p>Email us at hello@poetandscribe.com.</p>
+        </section>
       </article>
     </main>
     <footer>

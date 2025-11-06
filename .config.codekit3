@@ -9030,7 +9030,7 @@
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,
-      "removeVariables" : 1,
+      "removeVariables" : 0,
       "safelistEntries" : [
 
       ],

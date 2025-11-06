@@ -40,7 +40,9 @@
   --bricolage-opsz: .5;
   --bricolage-wght: 800;
 
+  --gutter: var(--step-0);
   --measure: 65ch;
+  --wrapper-max-width: var(--measure);
 
   --kerning: normal;
   --kerning-loose: .05ch;
@@ -58,6 +60,11 @@
   --focus-ring: 2px solid currentColor;
   --focus-ring-offset: 2px;
 
+  --step--7: clamp(0.2621rem, 0.3352rem + -0.0942vw, 0.314rem);
+  --step--6: clamp(0.3277rem, 0.3968rem + -0.0892vw, 0.3768rem);
+  --step--5: clamp(0.4096rem, 0.4695rem + -0.0773vw, 0.4521rem);
+  --step--4: clamp(0.512rem, 0.555rem + -0.0555vw, 0.5425rem);
+  --step--3: clamp(0.64rem, 0.6556rem + -0.0201vw, 0.651rem);
   --step--2: clamp(0.7813rem, 0.7736rem + 0.0341vw, 0.8rem);
   --step--1: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
   --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
@@ -66,6 +73,8 @@
   --step-3: clamp(1.944rem, 1.7405rem + 0.9044vw, 2.4414rem);
   --step-4: clamp(2.3328rem, 2.0387rem + 1.3072vw, 3.0518rem);
   --step-5: clamp(2.7994rem, 2.384rem + 1.8461vw, 3.8147rem);
+  --step-6: clamp(3.3592rem, 2.7828rem + 2.5621vw, 4.7684rem);
+  --step-7: clamp(4.0311rem, 3.2418rem + 3.508vw, 5.9605rem);
 
   --space-2xs: clamp(0.5625rem, 0.5369rem + 0.1136vw, 0.625rem);
   --space-xs: clamp(0.875rem, 0.8494rem + 0.1136vw, 0.9375rem);
@@ -75,8 +84,6 @@
   --space-xl: clamp(3.375rem, 3.2216rem + 0.6818vw, 3.75rem);
   --space-2xl: clamp(4.5rem, 4.2955rem + 0.9091vw, 5rem);
 
-  --wrapper-max-width: var(--measure);
-  --gutter: var(--step-0);
 }
 
 /* Modern reset: https://piccalil.li/blog/a-more-modern-css-reset/ */
@@ -183,7 +190,7 @@ textarea:not([rows]) {
 
 /* Utilities */
 .flow > * + * {
-  margin-top: var(--flow-space, 1em);
+  margin-top: var(--flow-space, var(--step-2));
 }
 
 
@@ -225,17 +232,18 @@ main{
 
 header:has(.masthead){
   padding-block-end:var(--gutter);
+
 }
 section.masthead{
   display: flex;
   flex-flow:column;
-  gap: calc(.75*var(--gutter));
+  gap: var(--step--1);
   align-items:flex-start;
   padding-block-start:var(--gutter);
 
   & svg{
-    width:calc(3.5*var(--gutter));
-    height:calc(3.5*var(--gutter));
+    width:var(--step-6);
+    height:var(--step-6);
 
     & .circle{
       fill:light-dark(var(--theme-darker), var(--theme-lighter));
@@ -268,6 +276,7 @@ h1{
 .lede{
   --bricolage-wdth: 100;
   --bricolage-wght: 420;
+  margin-block-start:var(--space-s);
   padding-block-end:var(--gutter);
   font-size:var(--step-2);
   line-height:var(--leading);
@@ -276,9 +285,11 @@ h1{
 }
 
 article{
-  padding-block-start:var(--gutter);
-  padding-block-end:calc(2*var(--gutter));
   max-width:var(--measure);
+  padding-block-start:var(--step-2);
+  padding-block-end:var(--step-2);
+  padding-inline-start:var(--gutter);
+  padding-inline-end: var(--gutter);
   color:light-dark(var(--theme-darkest),var(--theme-lightest));
 
   & h2:first-of-type{
@@ -288,9 +299,8 @@ article{
     margin-block-start:var(--space-2xs);
   }
   & p + p{
-    margin-block-start:var(--space-s);
+    margin-block-start:var(--space-xs);
   }
-
 }
 
 @media screen and (min-width:40em){
@@ -316,7 +326,7 @@ h3{
   font-size:var(--step-2);
 }
 
-p,ul{
+p,ul, em{
   font-variation-settings: "MONO" var(--recursive-mono), "CASL" var(--recursive-casl), "wght" var(--recursive-wght), "slnt" var(--recursive-slnt),"CRSV" var(--recursive-CRSV);
   --recursive-wght: 365;
 
@@ -324,18 +334,23 @@ p,ul{
    font-variation-settings: "wght" 585;
  }
 }
+em {
+  --recursive-slnt: -15;
+}
+
 ul{
   max-width:50ch;
+  & li{
+    padding-block-end:var(--step--7);
+  }
 }
 
 strong + p{
   margin-block-start:.15em;
 }
-p + p{
 
-}
-li + li{
-  margin-block-end:.55em;
+hr{
+
 }
 .palette{
   display:flex;
