@@ -35,14 +35,14 @@
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p class="">We specialize in product strategy and design systems for scale-ups, non-profits, and global enterprises.</p>
+          <p class="">We specialize in product strategy and design systems for agencies, scale-ups, and global enterprises.</p>
 
           <h3>Design systems</h3>
           <p>If you're looking to fix disjointed user interfaces, improve internal efficiency, or build a resilient product—we're available to help with short-to-mid-term design system projects.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're accessible, clear, and deliver compounding value to users and your bottom line.</p>
 
           <h3>Product strategy</h3>
-          <p>We’ve worked in product development throughout our careers—from a decade of scaling global enterprises to consulting with agencies, start-ups, and governments.</p>
+          <p>We’ve worked in product development throughout our careers—from a decade of scaling an international global enterprise to consulting with agencies, start-ups, and governments.</p>
           <p>Each organization is unique, in their own season of growth and scale. We focus on understanding your context, co-creating paths forward together.</p>
           <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
 
