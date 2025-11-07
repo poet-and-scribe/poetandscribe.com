@@ -6,14 +6,20 @@
     <?= css([
       'assets/styles/main.css',
     ]) ?>
+    <script>
+      // --- Early script to prevent flash of wrong theme ---
+      (function() {
+        const savedTheme = localStorage.getItem("theme-preference");
+        const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = savedTheme === "system" || !savedTheme
+          ? (systemDark ? "dark" : "light")
+          : savedTheme;
+
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
   </head>
   <body class="wrapper">
-    <script>
-        var app = document.getElementsByTagName("BODY")[0];
-        if (localStorage.lightMode == "dark") {
-            app.setAttribute("data-color-mode", "dark");
-        }
-    </script>
     <header>
       <section class="masthead">
         <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" title="Brandmark">
@@ -50,7 +56,6 @@
           <p>We’re happy to chat if you need help with something we haven’t mentioned.</p>
           <p>If we can’t help, we’ll work to connect you with someone who can—we’ve met a lot of people throughout our careers.</p>
         </section>
-        <hr/>
         <section id="past">
           <h2>Who we’ve worked with</h2>
           <p>We’ve built our careers working on digital products for some local & global organizations and teams, including:</p>
@@ -63,6 +68,7 @@
             <li>Smashing Boxes</li>
           </ul>
         </section>
+        <hr/>
         <section id="approach">
           <h2>Our approach</h2>
           <p>Poet & Scribe isn't just our name, it defines how we work.</p>
@@ -74,7 +80,7 @@
           <p>We help organizations build that capacity. We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
         </section>
         <section id="principles">
-          <h2>Guiding principles</h2>
+          <h3>Guiding principles</h3>
           <p>If you want to work with disruptors, trend-setters, rockstars, magic formulas, or thing-breakers—that's not how we work.</p>
 
           <ul>
@@ -100,6 +106,7 @@
             </li>
           </ul>
         </section>
+        <hr/>
         <section id="cta">
           <h2>Let’s talk</h2>
           <p>If you’re interested in the support we offer, we’d love to chat</p>
@@ -109,42 +116,71 @@
       </article>
     </main>
     <footer>
-      <button
-    		class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
-	    	<span></span>
-	    	<span></span>
-	    </button>
       <p class="wrapper">Thanks for stopping by</p>
-      <ul class="palette">
-        <li>lightest</li>
-        <li>lighter</li>
-        <li>light</li>
-        <li>mid</li>
-        <li>dark</li>
-        <li>darker</li>
-        <li>darkest</li>
-      </ul>
+      <div class="theme-toggle" role="group" aria-label="Theme selector">
+        <button class="theme-btn" data-theme-value="system" aria-pressed="false" title="Use system theme">
+          🖥️ <span class="visually-hidden">System</span>
+        </button>
+        <button class="theme-btn" data-theme-value="light" aria-pressed="false" title="Use light mode">
+          ☀️ <span class="visually-hidden">Light</span>
+        </button>
+        <button class="theme-btn" data-theme-value="dark" aria-pressed="false" title="Use dark mode">
+          🌙 <span class="visually-hidden">Dark</span>
+        </button>
+      </div>
+      <details>
+        <summary>Colophon</summary>
+        <ul class="palette">
+          <li>lightest</li>
+          <li>lighter</li>
+          <li>light</li>
+          <li>mid</li>
+          <li>dark</li>
+          <li>darker</li>
+          <li>darkest</li>
+        </ul>
+      </details>
     </footer>
     <script>
-        function toggle_light_mode() {
-            var app = document.getElementsByTagName("BODY")[0];
-            if (localStorage.lightMode == "dark") {
-                localStorage.lightMode = "light";
-                app.setAttribute("data-color-mode", "light");
-            } else {
-                localStorage.lightMode = "dark";
-                app.setAttribute("data-color-mode", "dark");
-            }
+      const themeButtons = document.querySelectorAll(".theme-btn");
+      const systemQuery = window.matchMedia("(prefers-color-scheme: dark)");
+      const root = document.documentElement;
+
+      function applyTheme(theme) {
+        if (theme === "system") {
+          const isDark = systemQuery.matches;
+          root.setAttribute("data-theme", isDark ? "dark" : "light");
+        } else {
+          root.setAttribute("data-theme", theme);
         }
+        localStorage.setItem("theme-preference", theme);
+        updatePressedState(theme);
+      }
 
-		window.addEventListener("storage", function () {
-			if (localStorage.lightMode == "dark") {
-				app.setAttribute("data-color-mode", "dark");
-			} else {
-				app.setAttribute("data-color-mode", "light");
-			}
-		}, false);
+      function updatePressedState(theme) {
+        themeButtons.forEach(btn => {
+          btn.setAttribute("aria-pressed", btn.dataset.themeValue === theme);
+        });
+      }
 
+      // Watch for system changes if “system” mode is active
+      systemQuery.addEventListener("change", () => {
+        const saved = localStorage.getItem("theme-preference");
+        if (saved === "system") applyTheme("system");
+      });
+
+      // Watch for localStorage changes (multi-tab sync)
+      window.addEventListener("storage", e => {
+        if (e.key === "theme-preference") applyTheme(e.newValue || "system");
+      });
+
+      // Event listeners for buttons
+      themeButtons.forEach(btn => {
+        btn.addEventListener("click", () => applyTheme(btn.dataset.themeValue));
+      });
+
+      // Initialize from saved preference
+      applyTheme(localStorage.getItem("theme-preference") || "system");
     </script>
   </body>
 </html>
