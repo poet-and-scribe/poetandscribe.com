@@ -286,8 +286,8 @@ h1{
 
 article{
   max-width:var(--measure);
-  padding-block-start:var(--step-2);
-  padding-block-end:var(--step-2);
+  padding-block-start:var(--step-1);
+  padding-block-end:var(--step-1);
   padding-inline-start:var(--gutter);
   padding-inline-end: var(--gutter);
   color:light-dark(var(--theme-darkest),var(--theme-lightest));
