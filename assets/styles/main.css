@@ -354,6 +354,19 @@ p,ul, em{
 em {
   --recursive-slnt: -15;
 }
+hr{
+  border: 0px solid;
+  height: var(--step--7);
+  border-radius:var(--step--7);
+  display: block;
+
+  &::before {
+   position: absolute;
+   left: 50%;
+   margin: -5px 0px 0px -21px;
+   content: ""; }
+}
+
 
 html[data-theme="light"]{
   & main{
@@ -401,7 +414,7 @@ ul{
   max-width:50ch;
   margin-inline-start:calc(-1*var(--step--2));
   & li{
-    padding-block-end:;
+
   }
 }
 
@@ -409,19 +422,6 @@ strong + p{
   margin-block-start:.15em;
 }
 
-hr{
-  border: 0px solid;
-  height: var(--step--7);
-  border-radius:var(--step--10);
-  display: block;
-
-  &::before {
-   position: absolute;
-   left: 50%;
-   margin: -5px 0px 0px -21px;
-   content: ""; }
-
-}
 /* Popover styles */
 .popover {
   position: absolute;
