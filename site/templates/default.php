@@ -84,7 +84,7 @@
       <article class="flow">
         <section id="about">
           <h2>About us</h2>
-          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez—senior quality specialist & product lead—and Jonathan Stephens—product development director & principal designer.</p>
+          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez—product lead & senior quality specialist—and Jonathan Stephens—product/tech director & principal designer.</p>
           <p>Through P&S, we partner with trusted organizations and freelancers to provide a rounded and reliable service.</p>
         </section>
         <hr/>
