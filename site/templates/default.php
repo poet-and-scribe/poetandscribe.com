@@ -23,7 +23,7 @@
         </svg>
         <h1>Poet & Scribe</h1>
       </section>
-      <p Helping teams shape digital products that are accessible, understandable, and built to grow.</p>
+      <p class="lede">Helping teams shape digital products that are accessible, understandable, and built to grow.</p>
     </header>
     <main>
       <article class="flow">
