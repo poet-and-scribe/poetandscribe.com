@@ -65,7 +65,7 @@
         </section>
         <section id="approach">
           <h2>Our approach</h2>
-          <p>Poet & Scribe isn't just our name, it defines how we operate.</p>
+          <p>Poet & Scribe isn't just our name, it defines how we work.</p>
 
           <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning. Scribes preserve knowledge, translating meaning into collective memory. They context-builders, shaping how communities grow & scale beyond any one human's capability.</p>
 
