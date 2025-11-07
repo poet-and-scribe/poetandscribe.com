@@ -17,6 +17,14 @@
       "oAP" : "\/.editorconfig",
       "oF" : 0
     },
+    "\/.github\/workflows\/main.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.github\/workflows\/main.yml",
+      "oF" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -57,12 +65,44 @@
       "oAP" : "\/assets\/fonts\/Recursive_VF_1.085--subset_range_english_basic.woff2",
       "oF" : 0
     },
+    "\/assets\/fonts\/Recursive_VF_1.085--subset_range_latin_1_punc.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Recursive_VF_1.085--subset_range_latin_1_punc.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Recursive_VF_1.085--subset_range_latin_1.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Recursive_VF_1.085--subset_range_latin_1.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Recursive_VF_1.085--subset_range_latin_ext.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Recursive_VF_1.085--subset_range_latin_ext.woff2",
+      "oF" : 0
+    },
     "\/assets\/fonts\/Recursive_VF_1.085--subset-GF_latin_basic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/Recursive_VF_1.085--subset-GF_latin_basic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Recursive_VF_1085--subset_range_latin_ext.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Recursive_VF_1085--subset_range_latin_ext.woff2",
       "oF" : 0
     },
     "\/assets\/fonts\/RecursiveVF.woff2" : {
@@ -104,6 +144,66 @@
       "oAP" : "\/assets\/styles\/main-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/assets\/svg\/computer-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/computer-line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/svg\/file-copy-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/file-copy-line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/svg\/moon-fill.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/moon-fill.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/svg\/moon-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/moon-line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/svg\/sun-fill.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/sun-fill.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/svg\/sun-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/sun-line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/composer.json" : {
       "ft" : 524288,

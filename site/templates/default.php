@@ -3,6 +3,55 @@
   <head>
     <title>Poet & Scribe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @font-face {
+        font-family: 'Bricolage Grotesque';
+        src:
+          url(<?php $site->url(); ?>'/assets/fonts/BricolageGrotesque.woff2') format('woff2-variations');
+        font-weight: 200 800;
+        font-stretch: 75% 100%;
+      }
+
+      /* The bare minimum English subset, plus copyright & arrows (← ↑ → ↓) & quotes (“ ” ‘ ’) & bullet (•) */
+      @font-face {
+       font-family: 'RecVar';
+       font-style: oblique 0deg 15deg;
+       font-weight: 300 1000;
+       font-display: swap;
+       src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_english_basic.woff2') format('woff2');
+       unicode-range: U+0020-007F,U+00A9,U+2190-2193,U+2018,U+2019,U+201C,U+201D,U+2022;
+      }
+
+      /* unicode latin-1 letters, basic european diacritics */
+      @font-face {
+       font-family: 'RecVar';
+       font-style: oblique 0deg 15deg;
+       font-weight: 300 1000;
+       font-display: swap;
+       src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_latin_1.woff2') format('woff2');
+       unicode-range: U+00C0-00FF;
+      }
+
+      /* unicode latin-1, punc/symbols & arrows (↔ ↕ ↖ ↗ ↘ ↙) */
+      @font-face {
+       font-family: 'RecVar';
+       font-style: oblique 0deg 15deg;
+       font-weight: 300 1000;
+       font-display: swap;
+       src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_latin_1_punc.woff2') format('woff2');
+       unicode-range: U+00A0-00A8,U+00AA-00BF,U+2194-2199;
+      }
+
+      /* unicode latin A extended */
+      @font-face {
+       font-family: 'RecVar';
+       font-style: oblique 0deg 15deg;
+       font-weight: 300 1000;
+       font-display: swap;
+       src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_latin_ext.woff2') format('woff2');
+       unicode-range: U+0100-017F;
+      }
+    </style>
     <?= css([
       'assets/styles/main.css',
     ]) ?>
@@ -29,36 +78,35 @@
         </svg>
         <h1>Poet & Scribe</h1>
       </section>
-      <p class="lede">Helping teams shape digital products that are accessible, understandable, and built to grow.</p>
+      <p class="lede">Helping teams shape accessible, web products that are  understandable and built to grow.</p>
     </header>
     <main>
       <article class="flow">
         <section id="about">
           <h2>About us</h2>
-          <p>Poet & Scribe was founded in 2022 by product development director and principal designer, Jonathan Stephens.</p>
-          <p>Through P&S, Jonathan partners with trusted organizations and freelancers to provide a rounded and reliable service.</p>
+          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez—senior quality specialist & product lead—and Jonathan Stephens—product development director & principal designer.</p>
+          <p>Through P&S, we partner with trusted organizations and freelancers to provide a rounded and reliable service.</p>
         </section>
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p class="">We specialize in product strategy and design systems for agencies, scale-ups, and global enterprises.</p>
+          <p>We specialize in design systems and product strategy for start-ups, scale-ups, and global enterprises.</p>
 
           <h3>Design systems</h3>
           <p>If you're looking to fix disjointed user interfaces, improve internal efficiency, or build a resilient product—we're available to help with short-to-mid-term design system projects.</p>
-          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're accessible, clear, and deliver compounding value to users and your bottom line.</p>
+          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're accessible and clear, delivering compounding value to users and your bottom line.</p>
 
           <h3>Product strategy</h3>
-          <p>We’ve worked in product development throughout our careers—from a decade of scaling an international global enterprise to consulting with agencies, start-ups, and governments.</p>
-          <p>Each organization is unique, in their own season of growth and scale. We focus on understanding your context, co-creating paths forward together.</p>
+          <p>We’ve worked in product development throughout our careers—from a decade of scaling an international global company to consulting with agencies, start-ups, and governments.</p>
+          <p>Each organization is unique, in their own season of growth and scale. We focus on understanding <em>your</em> context, co-creating paths forward together.</p>
           <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
 
           <h3>Can’t find what you need?</h3>
-          <p>We’re happy to chat if you need help with something we haven’t mentioned.</p>
-          <p>If we can’t help, we’ll work to connect you with someone who can—we’ve met a lot of people throughout our careers.</p>
-        </section>
-        <section id="past">
-          <h2>Who we’ve worked with</h2>
-          <p>We’ve built our careers working on digital products for some local & global organizations and teams, including:</p>
+          <p>We’re happy to chat, even if it's not listed above. While these are our specializations, we have breadth in skills & experiences that can be put to use.</p>
+          <p>If we're not able to help help, we’ll work to connect you with allies that can.</p>
+
+          <h2 id="past">Who we’ve worked with</h2>
+          <p>We’ve built our careers working on digital products with diverse local & global teams, including:</p>
           <ul>
             <li>Booking.com</li>
             <li>United States' Space Force</li>
@@ -73,32 +121,33 @@
           <h2>Our approach</h2>
           <p>Poet & Scribe isn't just our name, it defines how we work.</p>
 
-          <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning. Scribes preserve knowledge, translating meaning into collective memory. They context-builders, shaping how communities grow & scale beyond any one human's capability.</p>
+          <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning, giving form to abstract thoughts & feeling.</p>
 
-          <p>In product development, it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery & practices—creating shared understanding at every layer.</p>
+          <p>Scribes preserve knowledge, translating into collective memory. They're context-builders, shaping how communities grow & scale beyond any one human's capability.</p>
 
-          <p>We help organizations build that capacity. We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
-        </section>
-        <section id="principles">
-          <h3>Guiding principles</h3>
-          <p>If you want to work with disruptors, trend-setters, rockstars, magic formulas, or thing-breakers—that's not how we work.</p>
+          <p>In product development, <em>it's much of the same</em>: translating user research into strategy, strategy into systems, and systems into delivery & practices—creating shared understanding at every layer.</p>
+
+          <p><strong>We help organizations build that capacity.</strong> We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
+
+        <h3 id="principles">Guiding principles</h3>
+          <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers—that's not how we work.</p>
 
           <ul>
             <li>
               <p><strong>Coalitions over competition.</strong>
-              We believe in collective power over individual genius, building with others rather than against them.</p>
+              We believe in collective power over individual genius, building <em>with</em> others rather than against them.</p>
             </li>
             <li>
               <p><strong>Spectrums over binaries.</strong>
-              We recognize that most decisions exist on a continuum, embracing nuance and context over rigid absolutes.</p>
+              We embrace nuance & context over rigid absolutes, recognizing that most decisions exist on a continuum.</p>
             </li>
             <li>
               <p><strong>Curiosity over assumptions.</strong>
-              We ask questions and listen deeply, approaching each project with genuine interest rather than predetermined solutions.</p>
+              We ask questions & listen deeply, approaching each project with genuine interest rather than predetermined solutions.</p>
             </li>
             <li>
               <p><strong>Sustainability over extraction.</strong>
-              We build systems that grow stronger & improve over time rather than chasing for short-term gains.</p>
+              We build resilient systems that grow & improve over time rather than chasing short-term gains.</p>
             </li>
             <li>
               <p><strong>Iterations over perfection.</strong>
@@ -111,7 +160,16 @@
           <h2>Let’s talk</h2>
           <p>If you’re interested in the support we offer, we’d love to chat</p>
 
-          <p>Email us at hello@poetandscribe.com.</p>
+          <p>Email us at <a href="mailto:hello@poetandscribe.com" class="email-link" id="emailLink">hello@poetandscribe.com</a>
+            <button
+              type="button"
+              class="copy-btn"
+              id="copyBtn"
+              aria-label="Copy email address to clipboard"
+            ><?= asset('assets/svg/file-copy-line.svg')->read() ?>️
+            <span class="popover" role="status" aria-live="polite"></span>
+          </button>
+          </p>
         </section>
       </article>
     </main>
@@ -119,16 +177,16 @@
       <p class="wrapper">Thanks for stopping by</p>
       <div class="theme-toggle" role="group" aria-label="Theme selector">
         <button class="theme-btn" data-theme-value="system" aria-pressed="false" title="Use system theme">
-          🖥️ <span class="visually-hidden">System</span>
+          <?= asset('assets/svg/computer-line.svg')->read() ?>️<span class="visually-hidden">System</span>
         </button>
         <button class="theme-btn" data-theme-value="light" aria-pressed="false" title="Use light mode">
-          ☀️ <span class="visually-hidden">Light</span>
+          <?= asset('assets/svg/sun-line.svg')->read() ?>️<span class="visually-hidden">Light</span>
         </button>
         <button class="theme-btn" data-theme-value="dark" aria-pressed="false" title="Use dark mode">
-          🌙 <span class="visually-hidden">Dark</span>
+          <?= asset('/assets/svg/moon-line.svg')->read() ?>️<span class="visually-hidden">Dark</span>
         </button>
       </div>
-      <details>
+      <details class="colophon">
         <summary>Colophon</summary>
         <ul class="palette">
           <li>lightest</li>
@@ -141,6 +199,54 @@
         </ul>
       </details>
     </footer>
+    <script>
+    const copyBtn = document.getElementById('copyBtn');
+    const emailLink = document.getElementById('emailLink');
+    const popover = document.querySelector('.popover');
+
+    copyBtn.addEventListener('click', async () => {
+      // Extract email from the mailto: link
+      const email = emailLink.href.replace('mailto:', '');
+
+      try {
+        await navigator.clipboard.writeText(email);
+
+        // Show success message
+        popover.textContent = 'Copied!';
+        popover.classList.add('show');
+
+        // Hide after 2 seconds
+        setTimeout(() => {
+          popover.classList.remove('show');
+        }, 2000);
+
+      } catch (err) {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = email;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+
+        try {
+          document.execCommand('copy');
+          popover.textContent = 'Copied!';
+          popover.classList.add('show');
+          setTimeout(() => {
+            popover.classList.remove('show');
+          }, 2000);
+        } catch (fallbackErr) {
+          popover.textContent = 'Failed to copy';
+          popover.classList.add('show');
+          setTimeout(() => {
+            popover.classList.remove('show');
+          }, 2000);
+        }
+
+        document.body.removeChild(textArea);
+      }
+    });</script>
     <script>
       const themeButtons = document.querySelectorAll(".theme-btn");
       const systemQuery = window.matchMedia("(prefers-color-scheme: dark)");
