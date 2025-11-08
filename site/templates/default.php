@@ -125,9 +125,9 @@
 
           <p>Scribes preserve knowledge, translating into collective memory. They're context-builders, shaping how communities grow & scale beyond any one human's capability.</p>
 
-          <p><em>In product development</em>, it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery practices—crafting shared understanding at every layer.</p>
+          <p><strong>In product development</strong>, it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery practices—crafting shared understanding at every layer.</p>
 
-          <p><strong>We help organizations build that capacity.</strong> We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
+          <p>We help organizations build that capacity. We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
 
         <h3 id="principles">Guiding principles</h3>
           <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers—that's not us.</p>
