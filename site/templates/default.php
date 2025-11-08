@@ -102,8 +102,8 @@
           <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
 
           <h3>Can’t find what you need?</h3>
-          <p>We’re happy to chat, even if it's not listed above. While these are our specializations, we have breadth in skills & experiences that can be put to use.</p>
-          <p>If we're not able to help help, we’ll work to connect you with allies that can.</p>
+          <p>We’re happy to chat, even if they don't <em>exactly</en> above. While these are our specializations, we have breadths of skill & experience that can be put to use.</p>
+          <p>If we're not able to help, we’ll work to connect you with allies that can.</p>
 
           <h2 id="past">Who we’ve worked with</h2>
           <p>We’ve built our careers working on digital products with diverse local & global teams, including:</p>
@@ -130,7 +130,7 @@
           <p><strong>We help organizations build that capacity.</strong> We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
 
         <h3 id="principles">Guiding principles</h3>
-          <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers—that's not how we work.</p>
+          <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers—that's not us.</p>
 
           <ul>
             <li>
