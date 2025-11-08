@@ -119,7 +119,7 @@
         <hr/>
         <section id="approach">
           <h2>Our approach</h2>
-          <p><em>Poet & Scribe</em> isn't just our name, it defines how we work.</p>
+          <p><strong>Poet & Scribe</strong> isn't just our name, it defines how we work.</p>
 
           <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning, giving form to abstract thoughts & feeling.</p>
 
