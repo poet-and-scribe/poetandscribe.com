@@ -102,7 +102,7 @@
           <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
 
           <h3>Can’t find what you need?</h3>
-          <p>We’re happy to chat, even if they don't <em>exactly</em> above. While these are our specializations, we have breadths of skill & experience that can be put to use.</p>
+          <p>We’re happy to chat, even if they don't align <em>exactly</em> with above. While they are our specializations, we have breadth of skill & experience that can be put to use.</p>
           <p>If we're not able to help, we’ll work to connect you with allies that can.</p>
 
           <h2 id="past">Who we’ve worked with</h2>
