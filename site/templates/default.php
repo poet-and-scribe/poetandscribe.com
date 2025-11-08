@@ -123,7 +123,7 @@
 
           <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning, giving form to abstract thoughts & feeling.</p>
 
-          <p>Scribes preserve knowledge, translating into collective memory. They're context-builders, shaping how communities grow & scale beyond any one human's capability.</p>
+          <p>Scribes preserve knowledge, translating into collective memory. They're context-builders, shaping how humans gather & scale beyond any one individual's contribution.</p>
 
           <p><strong>In product development</strong>, it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery practices—crafting shared understanding at every layer.</p>
 
