@@ -98,7 +98,7 @@
 
           <h3>Product strategy</h3>
           <p>We’ve worked in product development throughout our careers—from a decade of scaling an international global company to consulting with agencies, start-ups, and governments.</p>
-          <p>Each organization is unique, in their own season of growth and scale. We focus on understanding <em>your</em> context, co-creating paths forward together.</p>
+          <p>Each organization is unique, with their own rhythms of growth and scale. We focus on understanding <em>your</em> context, co-creating paths forward together.</p>
           <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
 
           <h3>Can’t find what you need?</h3>
