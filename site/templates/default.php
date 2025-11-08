@@ -131,7 +131,7 @@
 
         <h3 id="principles">Guiding principles</h3>
           <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers—that's not us.</p>
-<p>This—↓—is more us:
+<p>This&thinsp;—&thinsp;↓&thinsp;—&thinsp;is more us:
           <ul>
             <li>
               <p><strong>Coalitions over competition.</strong>
