@@ -78,7 +78,7 @@
         </svg>
         <h1>Poet & Scribe</h1>
       </section>
-      <p class="lede">Helping teams shape accessible, web products that are  understandable and built to grow.</p>
+      <p class="lede">Helping teams shape accessible web products that are systematically built to grow.</p>
     </header>
     <main>
       <article class="flow">
