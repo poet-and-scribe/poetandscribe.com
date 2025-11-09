@@ -85,7 +85,7 @@
         <section id="about">
           <h2>About us</h2>
           <p>Poet & Scribe was founded in 2022 by Sandra Ibañez — senior quality specialist & product lead — and Jonathan Stephens — principal designer & product/tech director.</p>
-          <p>Through P&S, we work directly with your team, alongside agencies, or teaming with indie partners, depending on project needs.</p>
+          <p style="--measure:50ch;">We work directly with your team, alongside agencies, or teaming with indie partners, depending on project needs.</p>
         </section>
         <hr/>
         <section id="services">
@@ -96,7 +96,7 @@
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
-          <p><em>We're available for <wbr/>short-to-mid-term projects.</em></p>
+          <p>We're available for <wbr/>short-to-mid-term projects.</p>
 
           <h3>Product strategy</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling an international enterprise to consulting agencies, start-ups, and governments.</p>
@@ -138,23 +138,23 @@
           <ul>
             <li>
               <p><em>Coalitions over competition.</em>
-              Collective strength & collaboration instead of individual genius.</p>
+              Collective strength and collaboration instead of individual genius.</p>
             </li>
             <li>
               <p><em>Spectrums over binaries.</em>
-              Context & gradation instead of either/or thinking.</p>
+              Context and gradation instead of either/or thinking.</p>
             </li>
             <li>
               <p><em>Curiosity over assumptions.</em>
-              Asking questions & staying open instead of prescribing answers.</p>
+              Asking questions and staying open instead of prescribing answers.</p>
             </li>
             <li>
               <p><em>Care over exploitation.</em>
-              Protecting wellbeing & sustainability instead of maximizing extraction.</p>
+              Protecting wellbeing and sustainability instead of maximizing extraction.</p>
             </li>
             <li>
               <p><em>Transparency over obscurity.</em>
-              Making decisions & processes visible instead of keeping them hidden.</p>
+              Making decisions and processes visible instead of keeping them hidden.</p>
             </li>
           </ul>
         </section>

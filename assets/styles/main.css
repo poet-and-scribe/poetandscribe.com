@@ -372,6 +372,9 @@ ul{
   li{
     padding-inline-start:var(--step--6);
     text-wrap:balance;
+    padding-block-start:0;
+
+    p{margin-block-start:var(--step--4);}
   }
 }
 
