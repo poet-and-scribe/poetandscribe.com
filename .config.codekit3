@@ -7,7 +7,7 @@
       "uuidString" : "B9012FA7-24EF-41F5-AFFC-0D53CAA9017A"
     }
   ],
-  "creatorBuild" : "34704",
+  "creatorBuild" : "34564",
   "files" : {
     "\/.editorconfig" : {
       "cB" : 0,
@@ -7508,6 +7508,36 @@
       "oAP" : "\/media\/index.html",
       "oF" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/postcss.config.mjs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/postcss.config.mjs",
+      "oF" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -7891,6 +7921,8 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
+    "cssoForceMediaMerge" : 0,
+    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -8091,6 +8123,10 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
+      "line-comment-position" : {
+        "active" : 0,
+        "optionString" : "{'position': 'above'}"
+      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -8142,6 +8178,10 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
+      },
+      "multiline-comment-style" : {
+        "active" : 0,
+        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -8284,8 +8324,7 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1,
-        "optionString" : "{'enforceForInnerExpressions': false}"
+        "active" : 1
       },
       "no-extra-label" : {
         "active" : 0
@@ -8370,8 +8409,7 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 1,
-        "optionString" : "{'allowEscape': false}"
+        "active" : 1
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -8739,8 +8777,7 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0,
-        "optionString" : "{'requireFlag': 'u'}"
+        "active" : 0
       },
       "require-yield" : {
         "active" : 1
@@ -9031,7 +9068,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
+      "compilerType" : 0,
       "cssoStyle" : 0,
+      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 0,
       "purgeCSSStyle" : 0,
@@ -9100,7 +9139,7 @@
     "languageDefaultsUserDefined" : [
 
     ],
-    "npmAbbreviatedPath" : "",
+    "npmAbbreviatedPath" : "\/",
     "npmCreatePackageLock" : 1,
     "npmInstallOptionalDependencies" : 0,
     "npmSaveExactVersion" : 0,
@@ -9129,8 +9168,8 @@
         "**\/*.kit"
       ],
       "removeFontFace" : 0,
-      "removeKeyframes" : 0,
-      "removeVariables" : 0,
+      "removeKeyframes" : 1,
+      "removeVariables" : 1,
       "safelistEntries" : [
 
       ],
@@ -9148,7 +9187,6 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -9169,7 +9207,6 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,

@@ -84,26 +84,26 @@
       <article class="flow">
         <section id="about">
           <h2>About us</h2>
-          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez—product lead & senior quality specialist—and Jonathan Stephens—product/tech director & principal designer.</p>
-          <p>Through P&S, we partner with trusted organizations and freelancers to provide a rounded and reliable service.</p>
+          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez — senior quality specialist & product lead — and Jonathan Stephens — principal designer & product/tech director.</p>
+          <p>Through P&S, we work directly with your team, alongside agencies, or partnering with independent practicioners, depending on what the project needs.</p>
         </section>
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p>We specialize in design systems and product strategy for start-ups, scale-ups, and global enterprises.</p>
+          <p>We specialize in design systems and product strategy — whether you're establishing foundations, scaling what's working, or untangling what isn't.</p>
 
           <h3>Design systems</h3>
-          <p>If you're looking to fix disjointed user interfaces, improve internal efficiency, or build a resilient product—we're available to help with short-to-mid-term design system projects.</p>
-          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're accessible and clear, delivering compounding value to users and your bottom line.</p>
+          <p>If you're looking to fix disjointed user interfaces, improve internal efficiency, or build a resilient product. We're available for short-to-mid-term projects.</p>
+          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users and your bottom line.</p>
 
           <h3>Product strategy</h3>
-          <p>We’ve worked in product development throughout our careers—from a decade of scaling an international global company to consulting with agencies, start-ups, and governments.</p>
+          <p>We’ve worked in product development throughout our careers — from combined decades of scaling an international global company to consulting with agencies, start-ups, and governments.</p>
           <p>Each organization is unique, with their own rhythms of growth and scale. We focus on understanding <em>your</em> context, co-creating paths forward together.</p>
-          <p>If you’re looking for direction, optimizing features, or scaling your product, we offer consultancy & coaching sessions to support you.</p>
+          <p>If you’re looking for direction, optimizing features, or scaling a product, we offer consultancy & coaching sessions to support you.</p>
 
           <h3>Can’t find what you need?</h3>
-          <p>We’re happy to chat, even if they don't align <em>exactly</em> with above. While they're our specializations, we have breadth of skill & experience that can be put to use.</p>
-          <p>If we're not able to help, we’ll work to connect you with allies that can.</p>
+          <p>We’re happy to chat, even if the topic doesn't align <em>exactly</em> with what's listed above. We have breadth of skill & experience that can be put to use.</p>
+          <p class="balance">If we are unable to help, we’ll work to connect you with allies that can.</p>
 
           <h2 id="past">Who we’ve worked with</h2>
           <p>We’ve built our careers working on digital products with diverse local & global teams, including:</p>
@@ -119,19 +119,19 @@
         <hr/>
         <section id="approach">
           <h2>Our approach</h2>
-          <p><strong>Poet & Scribe</strong> isn't just our name, it defines how we work.</p>
+          <p><strong>Poet & Scribe isn't just our name</strong>, it defines how we work.</p>
 
           <p>Poets take what’s hard to express and find language for it. They're sense-makers of patterns and meaning, giving form to abstract thoughts & feeling.</p>
 
           <p>Scribes preserve knowledge, translating into collective memory. They're context-builders, shaping how humans gather & scale beyond any one individual's contribution.</p>
 
-          <p><strong>In product development</strong>, it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery practices—crafting shared understanding at every layer.</p>
+          <p><strong>In product development, it's much of the same</strong>: translating user research into strategy, strategy into systems, and systems into delivery practices — crafting shared understanding at every layer.</p>
 
           <p>We help organizations build that capacity. We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then</em> we figure out how to keep moving forward.</p>
 
         <h3 id="principles">Guiding principles</h3>
-          <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers—that's not us.</p>
-<p>This&thinsp;—&thinsp;↓&thinsp;—&thinsp;is more us:
+          <p>If you want to work with disruptors, trend-setters, magic words, rockstars, or thing-breakers — that's not us.</p>
+<p>This — ↓ — is more us:
           <ul>
             <li>
               <p><strong>Coalitions over competition.</strong>
@@ -173,7 +173,7 @@
         </section>
       </article>
     </main>
-    <footer>
+    <footer class="flow">
       <p class="wrapper">Thanks for stopping by</p>
       <div class="theme-toggle" role="group" aria-label="Theme selector">
         <button class="theme-btn" data-theme-value="system" aria-pressed="false" title="Use system theme">
@@ -187,16 +187,18 @@
         </button>
       </div>
       <details class="colophon">
-        <summary>Colophon</summary>
-        <ul class="palette">
-          <li>lightest</li>
-          <li>lighter</li>
-          <li>light</li>
-          <li>mid</li>
-          <li>dark</li>
-          <li>darker</li>
-          <li>darkest</li>
-        </ul>
+        <summary><h2>Colophon</h2></summary>
+        <div class="content">
+          <ul class="palette">
+            <li>lightest</li>
+            <li>lighter</li>
+            <li>light</li>
+            <li>mid</li>
+            <li>dark</li>
+            <li>darker</li>
+            <li>darkest</li>
+          </ul>
+        </div>
       </details>
     </footer>
     <script>
