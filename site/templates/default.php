@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
     <title>Poet & Scribe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -85,7 +85,7 @@
         <section id="about">
           <h2>About us</h2>
           <p>Poet & Scribe was founded in 2022 by Sandra Ibañez — senior quality specialist & product lead — and Jonathan Stephens — principal designer & product/tech director.</p>
-          <p>Through P&S, we work directly with your team, alongside agencies, or partnering with indie practicioners, depending on project needs.</p>
+          <p>Through P&S, we work directly with your team, alongside agencies, or teaming with indie partners, depending on project needs.</p>
         </section>
         <hr/>
         <section id="services">
@@ -94,9 +94,9 @@
 
           <h3>Design systems</h3>
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
-          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive & clear, delivering compounding value to users and your bottom line.</p>
+          <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
-          <p><em>We're available for short-to-mid-term projects.</em></p>
+          <p><em>We're available for <wbr/>short-to-mid-term projects.</em></p>
 
           <h3>Product strategy</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling an international enterprise to consulting agencies, start-ups, and governments.</p>
@@ -105,10 +105,10 @@
 
           <h3>Can’t find what you need?</h3>
           <p>We’re happy to chat, even if the topic doesn't align <em>exactly</em> with what's listed above. We have breadth of skill & experience that can be put to use.</p>
-          <p class="balance">If we are unable to help, we’ll work to connect you with allies that can.</p>
+          <p class="balance">If we are unable to help, <wbr/>we’ll work to connect you with allies that can.</p>
 
           <h2 id="past">Who we’ve worked with</h2>
-          <p>We’ve built our careers working on digital products with diverse local & global teams, including:</p>
+          <p>We’ve built our careers working with digital product teams of diverse compositions & missions, including:</p>
           <ul>
             <li>Booking.com</li>
             <li>United States' Space Force</li>
@@ -127,10 +127,10 @@
 
           <p>Scribes preserve knowledge, translating into collective memory. They're context-builders, shaping how humans gather & scale beyond any one individual's contribution.</p>
 
-          <p><strong>In product development, it's much of the same:</strong> translating user research into strategy, strategy into systems, and systems into delivery practices — crafting shared understanding at every layer.</p>
+          <p><strong>In product development, it's much of the same:</strong> translating user research into strategy, strategy into systems, and systems into delivery practices — weaving alignment throughout.</p>
 
-          <p>We help organizations build that capacity.</p>
-          <p>We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then,</em> we map paths to keep moving forward.</p>
+          <p>We help teams build that capacity.</p>
+          <p>We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then,</em> we map potential paths to keep moving forward.</p>
 
         <h3 id="principles">Guiding principles</h3>
           <p>If you want to work with disruptors, trend-setters, wand-wavers, rockstars, or thing-breakers — that's not us.</p>
@@ -163,7 +163,7 @@
           <h2>Let’s talk</h2>
           <p>If you’re interested in the support we offer, we’d love to chat</p>
 
-          <p>Email us at <a href="mailto:hello@poetandscribe.com" class="email-link" id="emailLink">hello@poetandscribe.com</a>
+          <p>Email us at: <a href="mailto:hello@poetandscribe.com" class="email-link" id="emailLink">hello@poetandscribe.com</a>
             <button
               type="button"
               class="copy-btn"
@@ -177,7 +177,7 @@
       </article>
     </main>
     <footer class="flow">
-      <p class="wrapper">Thanks for stopping by</p>
+      <p class="wrapper">Thanks for visiting.</p>
       <div class="theme-toggle" role="group" aria-label="Theme selector">
         <button class="theme-btn" data-theme-value="system" aria-pressed="false" title="Use system theme">
           <?= asset('assets/svg/computer-line.svg')->read() ?>️<span class="visually-hidden">System</span>
@@ -192,14 +192,19 @@
       <details class="colophon">
         <summary><h2>Colophon</h2></summary>
         <div class="content">
+          <p>Designed & built by <a href="https://jonathanstephens.us">Jonathan Stephens</a> using <a href="https://atom-editor.cc/">Atom</a>, <a href="https://codekitapp.com/">CodeKit</a>, and <a href="https://github.com/">Github</a>.</p>
+          <p>The type is set in free and open source variable fonts, <a href="https://ateliertriay.github.io/bricolage/">Bricolage Grotesque</a> & <a href="https://www.recursive.design/">Recursive Sans & Mono</a> designed by <a href="https://www.mathieutriay.com/">Mathieu Triay</a> and <a href="https://www.arrowtype.com/">Arrow Type</a>, respectively.</p>
+          <p>Powered by <a href="https://getkirby.com">Kirby CMS</a>, hosted by <a href="https://hosting.com/">Hosting.com</a>.</p>
+          <p>Built in Raleigh, North Carolina, one week in November 2025.</p>
+
           <ul class="palette">
-            <li>lightest</li>
-            <li>lighter</li>
-            <li>light</li>
+            <li>-est</li>
+            <li>-er</li>
+            <li>lght</li>
             <li>mid</li>
             <li>dark</li>
-            <li>darker</li>
-            <li>darkest</li>
+            <li>-er</li>
+            <li>-est</li>
           </ul>
         </div>
       </details>
