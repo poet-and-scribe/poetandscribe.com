@@ -121,13 +121,13 @@
         <hr/>
         <section id="approach">
           <h2>Our approach</h2>
-          <p><strong>Poet & Scribe isn't just our name,</strong> it defines how we work.</p>
+          <p><strong>Poet & Scribe</strong> isn't just our name, it defines how we work.</p>
 
           <p>Poets take what’s hard to express and find language for it. They're sense-makers of meaning, giving form to abstract thoughts & feeling.</p>
 
           <p>Scribes preserve knowledge, translating it into collective memory. They're context-builders, shaping how humans gather & scale beyond any one individual's contribution.</p>
 
-          <p><strong>In product development, it's much of the same:</strong> translating user research into strategy, strategy into systems, and systems into delivery practices — weaving alignment throughout.</p>
+          <p><strong>In product development,</strong> it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery practices — weaving alignment throughout.</p>
 
           <p>We help teams build that capacity.</p>
           <p>We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then,</em> we map potential paths to keep moving forward.</p>
