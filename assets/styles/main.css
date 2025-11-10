@@ -392,6 +392,13 @@ strong{
 em {
   --recursive-slnt: -15;
 }
+
+*:focus{
+  outline-width: var(--step--10);
+  outline-style: solid;
+  outline-color: var(--foreground-primary);
+  outline-offset: calc(var(--step--10)*1);
+}
 hr{
   border: 0px solid;
   height: var(--step--7);
