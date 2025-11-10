@@ -41,6 +41,45 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
+    "\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 15707,
+      "oA" : 0,
+      "oAP" : "\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 67408,
+      "oA" : 0,
+      "oAP" : "\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 15046,
+      "oA" : 0,
+      "oAP" : "\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/fonts\/BricolageGrotesque.ttf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -165,6 +204,16 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/svg\/brandmark.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/svg\/brandmark.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/svg\/computer-line.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -257,6 +306,40 @@
       "oAP" : "\/content\/site.txt",
       "oF" : 0
     },
+    "\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 405,
+      "oA" : 0,
+      "oAP" : "\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1082,
+      "oA" : 0,
+      "oAP" : "\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon.ico",
+      "oF" : 0
+    },
     "\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -271,26 +354,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/kirby\/.editorconfig",
-      "oF" : 0
-    },
-    "\/kirby\/assets\/whoops-min.css" : {
-      "aP" : 0,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 1,
-      "ft" : 16,
-      "ma" : 2,
-      "oA" : 0,
-      "oAP" : "\/kirby\/assets\/whoops-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/kirby\/assets\/whoops-min.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/kirby\/assets\/whoops-min.css.map",
       "oF" : 0
     },
     "\/kirby\/assets\/whoops.css" : {
@@ -2280,26 +2343,6 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
-    },
-    "\/kirby\/panel\/dist\/css\/style.min-min.css" : {
-      "aP" : 0,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 1,
-      "ft" : 16,
-      "ma" : 2,
-      "oA" : 0,
-      "oAP" : "\/kirby\/panel\/dist\/css\/style.min-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/kirby\/panel\/dist\/css\/style.min-min.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/kirby\/panel\/dist\/css\/style.min-min.css.map",
-      "oF" : 0
     },
     "\/kirby\/panel\/dist\/css\/style.min.css" : {
       "aP" : 0,
@@ -6117,26 +6160,6 @@
       "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Inspector\/InspectorInterface.php",
       "oF" : 0
     },
-    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css" : {
-      "aP" : 0,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 1,
-      "ft" : 16,
-      "ma" : 2,
-      "oA" : 0,
-      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css.map",
-      "oF" : 0
-    },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism.css" : {
       "aP" : 0,
       "bl" : 0,
@@ -6148,26 +6171,6 @@
       "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css" : {
-      "aP" : 0,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 1,
-      "ft" : 16,
-      "ma" : 2,
-      "oA" : 0,
-      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css.map",
-      "oF" : 0
     },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css" : {
       "aP" : 0,
@@ -7600,6 +7603,14 @@
       "oAP" : "\/kirby\/views\/snippets\/header.php",
       "oF" : 0
     },
+    "\/manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -7722,7 +7733,7 @@
     "creationDate" : 784153511.61049199,
     "displayValue" : "poetandscribe.com",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "\/kirby\/panel\/dist\/apple-touch-icon.png",
+    "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {

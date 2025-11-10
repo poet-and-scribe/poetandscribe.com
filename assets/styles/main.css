@@ -256,7 +256,6 @@ header:has(.masthead){
 section.masthead{
   display: flex;
   flex-flow:column;
-  gap: var(--step--1);
   align-items:flex-start;
   padding-block-start:var(--gutter);
 
