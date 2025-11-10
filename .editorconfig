@@ -1,21 +1,21 @@
 [*.{css,scss,less,js,json,ts,sass,html,hbs,mustache,phtml,html.twig,md,yml}]
 charset = utf-8
-indent_style = space
-indent_size = 2
+indent_style = tabs
+indent_size = 1
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.md]
-indent_size = 4
+indent_size = 2
 trim_trailing_whitespace = false
 
 [site/templates/**.php]
-indent_size = 2
+indent_size = 1
 
 [site/snippets/**.php]
-indent_size = 2
+indent_size = 1
 
 [package.json,.{babelrc,editorconfig,eslintrc,lintstagedrc,stylelintrc}]
 indent_style = space
-indent_size = 2
+indent_size = 1
