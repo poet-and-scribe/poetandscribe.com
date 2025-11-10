@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Poet & Scribe</title>
+    <title>Poet & Scribe • Design Systems & Product Strategy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Working directly with teams, agencies, or teaming with indie partners.">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://poetandscribe.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Poet & Scribe • Design Systems & Product Strategy">
+    <meta property="og:description" content="Working directly with teams, agencies, or teaming with indie partners.">
+    <meta property="og:image" content="<?php $site->url(); ?>/og-share.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="poetandscribe.com">
+    <meta property="twitter:url" content="https://poetandscribe.com">
+    <meta name="twitter:title" content="Poet & Scribe • Design Systems & Product Strategy">
+    <meta name="twitter:description" content="Working directly with teams, agencies, or teaming with indie partners.">
+    <meta name="twitter:image" content="<?php $site->url(); ?>/assets/og-share.png">
+
+    <link rel="icon" type="image/x-icon" href="<?php $site->url(); ?>/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php $site->url(); ?>/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php $site->url(); ?>/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php $site->url(); ?>/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?php $site->url(); ?>/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="<?php $site->url(); ?>/android-chrome-512x512.png">
     <meta name="theme-color" content="#F9F9F4">
     <style>
       @font-face {

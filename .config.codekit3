@@ -7625,6 +7625,19 @@
       "oAP" : "\/node_modules",
       "oF" : 0
     },
+    "\/og-share.png" : {
+      "ft" : 32768,
+      "iS" : 41635,
+      "oA" : 0,
+      "oAP" : "\/og-share.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
