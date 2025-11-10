@@ -7,7 +7,7 @@
       "uuidString" : "B9012FA7-24EF-41F5-AFFC-0D53CAA9017A"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34704",
   "files" : {
     "\/.editorconfig" : {
       "cB" : 0,
@@ -111,6 +111,26 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/RecursiveVF.woff2",
+      "oF" : 0
+    },
+    "\/assets\/styles\/main-min-min.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 2,
+      "oA" : 0,
+      "oAP" : "\/assets\/styles\/main-min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/styles\/main-min-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/styles\/main-min-min.css.map",
       "oF" : 0
     },
     "\/assets\/styles\/main-min.css" : {
@@ -251,6 +271,26 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/kirby\/.editorconfig",
+      "oF" : 0
+    },
+    "\/kirby\/assets\/whoops-min.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 2,
+      "oA" : 0,
+      "oAP" : "\/kirby\/assets\/whoops-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/kirby\/assets\/whoops-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/kirby\/assets\/whoops-min.css.map",
       "oF" : 0
     },
     "\/kirby\/assets\/whoops.css" : {
@@ -2240,6 +2280,26 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/kirby\/panel\/dist\/css\/style.min-min.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 2,
+      "oA" : 0,
+      "oAP" : "\/kirby\/panel\/dist\/css\/style.min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/kirby\/panel\/dist\/css\/style.min-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/kirby\/panel\/dist\/css\/style.min-min.css.map",
+      "oF" : 0
     },
     "\/kirby\/panel\/dist\/css\/style.min.css" : {
       "aP" : 0,
@@ -6057,6 +6117,26 @@
       "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Inspector\/InspectorInterface.php",
       "oF" : 0
     },
+    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 2,
+      "oA" : 0,
+      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css.map",
+      "oF" : 0
+    },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism.css" : {
       "aP" : 0,
       "bl" : 0,
@@ -6068,6 +6148,26 @@
       "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 2,
+      "oA" : 0,
+      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base-min.css.map",
+      "oF" : 0
     },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css" : {
       "aP" : 0,
@@ -7534,7 +7634,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/postcss.config.mjs",
       "oF" : 0
     },
@@ -7921,8 +8021,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -8123,10 +8221,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -8178,10 +8272,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -8324,7 +8414,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -8409,7 +8500,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -8777,7 +8869,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -9068,9 +9161,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 0,
       "purgeCSSStyle" : 0,
@@ -9139,7 +9230,7 @@
     "languageDefaultsUserDefined" : [
 
     ],
-    "npmAbbreviatedPath" : "\/",
+    "npmAbbreviatedPath" : "",
     "npmCreatePackageLock" : 1,
     "npmInstallOptionalDependencies" : 0,
     "npmSaveExactVersion" : 0,
@@ -9168,8 +9259,8 @@
         "**\/*.kit"
       ],
       "removeFontFace" : 0,
-      "removeKeyframes" : 1,
-      "removeVariables" : 1,
+      "removeKeyframes" : 0,
+      "removeVariables" : 0,
       "safelistEntries" : [
 
       ],
@@ -9187,7 +9278,8 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "sassWarningStyle" : 1,
+    "skippedFoldersString" : "\/storage\/framework\/sessions,node_modules,_logs,logs,log,.idea,_cache,cache,kirby\/*",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowArbitraryExtensions" : 0,
@@ -9207,6 +9299,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
