@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Working directly with teams, agencies, or teaming with indie partners.">
 
-    <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://poetandscribe.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Poet & Scribe • Design Systems & Product Strategy">
-    <meta property="og:description" content="Working directly with teams, agencies, or teaming with indie partners; whether you're establishing foundations, scaling what's working, or untangling what isn't.">
+    <meta property="og:description" content="Working directly with teams, agencies, or teaming with indie partners; establishing foundations, scaling what's working, or untangling what isn't.">
     <meta property="og:image" content="<?php $site->url(); ?>/og-share.png">
 
-    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="poetandscribe.com">
     <meta property="twitter:url" content="https://poetandscribe.com">
     <meta name="twitter:title" content="Poet & Scribe • Design Systems & Product Strategy">
-    <meta name="twitter:description" content="Working directly with teams, agencies, or teaming with indie partners; whether you're establishing foundations, scaling what's working, or untangling what isn't.">
+    <meta name="twitter:description" content="Working directly with teams, agencies, or teaming with indie partners; establishing foundations, scaling what's working, or untangling what isn't.">
     <meta name="twitter:image" content="<?php $site->url(); ?>/assets/og-share.png">
 
     <link rel="icon" type="image/x-icon" href="<?php $site->url(); ?>/favicon.ico">
@@ -101,6 +99,7 @@
       <p class="lede">
         Helping teams shape accessible web products, thoughtfully built to grow.
       </p>
+
     </header>
     <main>
       <article class="flow">
@@ -118,7 +117,7 @@
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
-          <p>Currently <span class="capacity status">available</span> for <wbr/>short-to-mid-term projects.</p>
+          <p>Currently available for short-to-mid-term projects.</p>
 
           <h3>Product strategy</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling an international enterprise to consulting agencies, start-ups, and governments.</p>
@@ -154,6 +153,7 @@
           <p>We help teams build that capacity.</p>
           <p>We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then,</em> we map potential paths to keep moving forward.</p>
 
+
         <h3 id="principles">Guiding principles</h3>
           <p>If you want to work with disruptors, trend-setters, wand-wavers, rockstars, or thing-breakers — that's not us.</p>
 <p>These are more us <strong>↓</strong> 
@@ -185,21 +185,25 @@
           <h2>Let’s talk</h2>
           <p>If you’re interested in the support we offer, we’d love to chat</p>
 
-          <p>Email us at: <a href="mailto:hello@poetandscribe.com" class="email-link" id="emailLink">hello@poetandscribe.com</a>
+          <p>Email us at:
             <button
               type="button"
-              class="copy-btn"
-              id="copyBtn"
-              aria-label="Copy email address to clipboard"
-            ><?= asset('assets/svg/file-copy-line.svg')->read() ?>️
-          </button>
+              class="email-copy-btn"
+              id="emailCopyBtn"
+              aria-label="Copy email address to clipboard">
+              <?= asset('assets/svg/file-copy-line.svg')->read() ?>️
+              <span class="email-text">hello@poetandscribe.com</span>
+            </button>
           <span class="popover" role="status" aria-live="polite"></span>
           </p>
         </section>
       </article>
     </main>
     <footer class="flow">
-      <p class="wrapper">Thanks for visiting.</p>
+      <p class="status">
+        <?= asset('assets/svg/hourglass-fill.svg')->read() ?>️
+        Now booking 2026 engagements
+      </p>
       <div class="theme-toggle" role="group" aria-label="Theme selector">
         <button class="theme-btn" data-theme-value="system" aria-pressed="false" title="Use system theme">
           <?= asset('assets/svg/computer-line.svg')->read() ?>️<span class="visually-hidden">System</span>
@@ -217,9 +221,10 @@
           <p>Designed & built by <a href="https://jonathanstephens.us">Jonathan Stephens</a> using <a href="https://atom-editor.cc/">Atom</a>, <a href="https://codekitapp.com/">CodeKit</a>, and <a href="https://github.com/">Github</a>.</p>
           <p>The type is set in free and open source variable fonts, <a href="https://ateliertriay.github.io/bricolage/">Bricolage Grotesque</a> & <a href="https://www.recursive.design/">Recursive Sans & Mono</a> designed by <a href="https://www.mathieutriay.com/">Mathieu Triay</a> and <a href="https://www.arrowtype.com/">Arrow Type</a>, respectively.</p>
           <p>Powered by <a href="https://getkirby.com">Kirby CMS</a>, hosted by <a href="https://hosting.com/">Hosting.com</a>.</p>
-          <p>Built in Raleigh, North Carolina, one week in November 2025.</p>
+          <p>Built in Raleigh, North Carolina.</p>
 
           <ul class="palette">
+            <li><a href="https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23F9F9F4%2C%20theme-lightest%0D%0A%23E0DFAD%2C%20theme-lighter%0D%0A%23A4B87B%2C%20theme-light%0D%0A%234F993C%2C%20theme-mid%0D%0A%23088D66%2C%20theme-dark%0D%0A%23025B54%2C%20theme-darker%0D%0A%230F2933%2C%20theme-darkest&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18">Contrasts:</a></li>
             <li>-est</li>
             <li>-er</li>
             <li>lght</li>
@@ -232,26 +237,18 @@
       </details>
     </footer>
     <script>
-    const copyBtn = document.getElementById('copyBtn');
-    const emailLink = document.getElementById('emailLink');
+    const emailCopyBtn = document.getElementById('emailCopyBtn');
     const popover = document.querySelector('.popover');
+    const email = 'hello@poetandscribe.com';
 
-    copyBtn.addEventListener('click', async () => {
-      // Extract email from the mailto: link
-      const email = emailLink.href.replace('mailto:', '');
-
+    emailCopyBtn.addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(email);
-
-        // Show success message
         popover.textContent = 'Copied!';
         popover.classList.add('show');
-
-        // Hide after 2 seconds
         setTimeout(() => {
           popover.classList.remove('show');
         }, 2000);
-
       } catch (err) {
         // Fallback for older browsers
         const textArea = document.createElement('textarea');
@@ -260,7 +257,6 @@
         textArea.style.left = '-999999px';
         document.body.appendChild(textArea);
         textArea.select();
-
         try {
           document.execCommand('copy');
           popover.textContent = 'Copied!';
@@ -275,10 +271,10 @@
             popover.classList.remove('show');
           }, 2000);
         }
-
         document.body.removeChild(textArea);
       }
-    });</script>
+    });
+  </script>
     <script>
       const themeButtons = document.querySelectorAll(".theme-btn");
       const systemQuery = window.matchMedia("(prefers-color-scheme: dark)");
