@@ -137,23 +137,23 @@
 <p>These are more us <strong>↓</strong> 
           <ul>
             <li>
-              <p><em>Coalitions over competition.</em>
+              <p><strong>Coalitions over competition.</strong>
               Collective strength and collaboration instead of individual genius.</p>
             </li>
             <li>
-              <p><em>Spectrums over binaries.</em>
+              <p><strong>Spectrums over binaries.</strong>
               Context and gradation instead of either/or thinking.</p>
             </li>
             <li>
-              <p><em>Curiosity over assumptions.</em>
+              <p><strong>Curiosity over assumptions.</strong>
               Asking questions and staying open instead of prescribing answers.</p>
             </li>
             <li>
-              <p><em>Care over exploitation.</em>
+              <p><strong>Care over exploitation.</strong>
               Protecting wellbeing and sustainability instead of maximizing extraction.</p>
             </li>
             <li>
-              <p><em>Transparency over obscurity.</em>
+              <p><strong>Transparency over obscurity.</strong>
               Making decisions and processes visible instead of keeping them hidden.</p>
             </li>
           </ul>
