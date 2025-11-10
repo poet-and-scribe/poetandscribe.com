@@ -9,7 +9,7 @@
     <meta property="og:url" content="https://poetandscribe.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Poet & Scribe • Design Systems & Product Strategy">
-    <meta property="og:description" content="Working directly with teams, agencies, or teaming with indie partners.">
+    <meta property="og:description" content="Working directly with teams, agencies, or teaming with indie partners; whether you're establishing foundations, scaling what's working, or untangling what isn't.">
     <meta property="og:image" content="<?php $site->url(); ?>/og-share.png">
 
     <!-- Twitter Meta Tags -->
@@ -17,7 +17,7 @@
     <meta property="twitter:domain" content="poetandscribe.com">
     <meta property="twitter:url" content="https://poetandscribe.com">
     <meta name="twitter:title" content="Poet & Scribe • Design Systems & Product Strategy">
-    <meta name="twitter:description" content="Working directly with teams, agencies, or teaming with indie partners.">
+    <meta name="twitter:description" content="Working directly with teams, agencies, or teaming with indie partners; whether you're establishing foundations, scaling what's working, or untangling what isn't.">
     <meta name="twitter:image" content="<?php $site->url(); ?>/assets/og-share.png">
 
     <link rel="icon" type="image/x-icon" href="<?php $site->url(); ?>/favicon.ico">
