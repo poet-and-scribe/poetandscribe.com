@@ -428,7 +428,7 @@ strong + p{
 button{
   background:var(--background-primary);
   color:var(--foreground-secondary);
-  border: calc(var(--step--9)/2) solid var(--border-color-primary);
+  border: calc(var(--step--9)/2) solid var(--border-color-secondary);
   padding: var(--step--7) var(--step--5);
   cursor: pointer;
   display:inline-flex;
@@ -460,8 +460,7 @@ button{
     color:var(--background-primary);
 
     svg{
-      --color-opacity:.15;
-      filter: drop-shadow(var(--step--10) var(--step--10) var(--step--10) var(--foreground-quaternary));
+      filter: drop-shadow(var(--step--10) var(--step--10) var(--step-0) var(--foreground-quaternary));
     }
     &:hover{
       background: linear-gradient(in oklab, var(--foreground-primary), var(--foreground-secondary));
@@ -477,7 +476,7 @@ button{
     height:24px;
     width:24px;
     fill: currentColor;
-    filter: drop-shadow(var(--step--10) var(--step--10) var(--step--10) var(--background-secondary));
+    filter: drop-shadow(var(--step--10) var(--step--10) var(--step-0) var(--background-secondary));
   }
 }
 
@@ -675,6 +674,16 @@ html[data-theme="light"]{
   --border-color-tertiary:var(--theme-lightest);
 
   --accent-primary: var(--theme-mid);
+
+  @media (prefers-contrast: more) {
+    --background-secondary:var(--theme-lightest);
+    --background-tertiary:var(--theme-lighter);
+    --foreground-secondary:var(--theme-darkest);
+    --foreground-tertiary:var(--theme-darkest);
+    --foreground-quaternary:var(--theme-darker);
+    --border-color-primary: var(--theme-lightest);
+    --border-color-secondary:var(--theme-lighter);
+  }
 }
 html[data-theme="dark"]{
   --background-primary:var(--theme-darkest);
@@ -691,4 +700,14 @@ html[data-theme="dark"]{
   --border-color-tertiary:var(--theme-darkest);
 
   --accent-primary:var(--theme-mid);
+
+  @media (prefers-contrast: more) {
+    --background-secondary:var(--theme-darkest);
+    --background-tertiary:var(--theme-darker);
+    --foreground-secondary:var(--theme-lightest);
+    --foreground-tertiary:var(--theme-lightest);
+    --foreground-quaternary:var(--theme-lighter);
+    --border-color-primary: var(--theme-darkest);
+    --border-color-secondary:var(--theme-darker);
+  }
 }

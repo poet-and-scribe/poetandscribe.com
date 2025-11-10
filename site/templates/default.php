@@ -170,8 +170,8 @@
               id="copyBtn"
               aria-label="Copy email address to clipboard"
             ><?= asset('assets/svg/file-copy-line.svg')->read() ?>️
-            <span class="popover" role="status" aria-live="polite"></span>
           </button>
+          <span class="popover" role="status" aria-live="polite"></span>
           </p>
         </section>
       </article>
