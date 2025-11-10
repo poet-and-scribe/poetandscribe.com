@@ -7668,6 +7668,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site.webmanifest",
+      "oF" : 0
+    },
     "\/site\/accounts\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
