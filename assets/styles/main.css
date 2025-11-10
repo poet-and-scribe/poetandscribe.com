@@ -279,7 +279,7 @@ h1, h2, h3, h4, .lede{
 }
 
 h1{
-  --bricolage-wdth:75;
+  --bricolage-wdth:100;
   --bricolage-wght: 700;
   font-size: var(--step-5);
   letter-spacing:var(--kerning-tight);
