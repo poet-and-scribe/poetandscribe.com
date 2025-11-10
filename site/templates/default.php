@@ -96,7 +96,7 @@
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
-          <p>We're available for <wbr/>short-to-mid-term projects.</p>
+          <p>Currently <span class="capacity status">open</span> for <wbr/>short-to-mid-term projects.</p>
 
           <h3>Product strategy</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling an international enterprise to consulting agencies, start-ups, and governments.</p>
