@@ -25,13 +25,19 @@
     <link rel="icon" type="image/png" sizes="192x192" href="<?php $site->url(); ?>/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="<?php $site->url(); ?>/android-chrome-512x512.png">
     <meta name="theme-color" content="#F9F9F4">
+
+    <link rel="preload" as="font" href="<?php $site->url(); ?>/assets/fonts/BricolageGrotesque.woff2" crossorigin>
+    <link rel="preload" as="font" href="<?php $site->url(); ?>/assets/fonts/Recursive_VF_1.085--subset_range_english_basic.woff2" crossorigin>
+    <link rel="preload" as="font" href="<?php $site->url(); ?>assets/fonts/Recursive_VF_1.085--subset_range_latin_1.woff2" crossorigin>
+
     <style>
       @font-face {
         font-family: 'Bricolage Grotesque';
-        src:
-          url(<?php $site->url(); ?>'/assets/fonts/BricolageGrotesque.woff2') format('woff2-variations');
         font-weight: 200 800;
         font-stretch: 75% 100%;
+        font-display: swap;
+        src:
+          url(<?php $site->url(); ?>'/assets/fonts/BricolageGrotesque.woff2') format('woff2-variations');
       }
 
       /* The bare minimum English subset, plus copyright & arrows (← ↑ → ↓) & quotes (“ ” ‘ ’) & bullet (•) */
@@ -49,7 +55,7 @@
        font-family: 'RecVar';
        font-style: oblique 0deg 15deg;
        font-weight: 300 1000;
-       font-display: swap;
+       font-display: optional;
        src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_latin_1.woff2') format('woff2');
        unicode-range: U+00C0-00FF;
       }
@@ -59,7 +65,7 @@
        font-family: 'RecVar';
        font-style: oblique 0deg 15deg;
        font-weight: 300 1000;
-       font-display: swap;
+       font-display: optional;
        src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_latin_1_punc.woff2') format('woff2');
        unicode-range: U+00A0-00A8,U+00AA-00BF,U+2194-2199;
       }
@@ -69,13 +75,13 @@
        font-family: 'RecVar';
        font-style: oblique 0deg 15deg;
        font-weight: 300 1000;
-       font-display: swap;
+       font-display: optional;
        src: url(<?php $site->url(); ?>'/assets/fonts/Recursive_VF_1.085--subset_range_latin_ext.woff2') format('woff2');
        unicode-range: U+0100-017F;
       }
     </style>
     <?= css([
-      'assets/styles/main.css',
+      'assets/styles/main-min.css',
     ]) ?>
     <script>
       // --- Early script to prevent flash of wrong theme ---
@@ -220,7 +226,7 @@
         <div class="content">
           <p>Designed & built by <a href="https://jonathanstephens.us">Jonathan Stephens</a> using <a href="https://atom-editor.cc/">Atom</a>, <a href="https://codekitapp.com/">CodeKit</a>, and <a href="https://github.com/">Github</a>.</p>
           <p>The type is set in free and open source variable fonts, <a href="https://ateliertriay.github.io/bricolage/">Bricolage Grotesque</a> & <a href="https://www.recursive.design/">Recursive Sans & Mono</a> designed by <a href="https://www.mathieutriay.com/">Mathieu Triay</a> and <a href="https://www.arrowtype.com/">Arrow Type</a>, respectively.</p>
-          <p>Powered by <a href="https://getkirby.com">Kirby CMS</a>, hosted by <a href="https://hosting.com/">Hosting.com</a>.</p>
+          <p>Built with <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, Javascript; powered by <a href="https://getkirby.com">Kirby <abbr title="Content Management System">CMS</abbr></a>; hosted on <a href="https://hosting.com/">Hosting.com</a>.</p>
           <p>Built in Raleigh, North Carolina.</p>
 
           <ul class="palette">

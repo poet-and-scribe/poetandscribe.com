@@ -153,7 +153,7 @@
       "oF" : 0
     },
     "\/assets\/styles\/main-min-min.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -173,7 +173,7 @@
       "oF" : 0
     },
     "\/assets\/styles\/main-min.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -193,7 +193,7 @@
       "oF" : 0
     },
     "\/assets\/styles\/main.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -367,7 +367,7 @@
       "oF" : 0
     },
     "\/kirby\/assets\/whoops.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -2355,7 +2355,7 @@
       "rq" : 75
     },
     "\/kirby\/panel\/dist\/css\/style.min.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -6171,7 +6171,7 @@
       "oF" : 0
     },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/prism.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -6183,7 +6183,7 @@
       "pg" : 0
     },
     "\/kirby\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "ci" : 0,
       "co" : 1,
@@ -9046,7 +9046,7 @@
       "combineImports" : 0,
       "cssoStyle" : 1,
       "purgeCSSStyle" : 0,
-      "shouldRunAutoprefixer" : 0,
+      "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 0,
       "sourceMapStyle" : 2
     },
