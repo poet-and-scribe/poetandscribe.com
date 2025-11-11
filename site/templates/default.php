@@ -192,7 +192,7 @@
               id="emailCopyBtn"
               aria-label="Copy email address to clipboard">
               <?= asset('assets/svg/file-copy-line.svg')->read() ?>️
-              <span class="email-text">hello@poetandscribe.com</span>
+              <span class="email-text">us@poetandscribe.com</span>
             </button>
           <span class="popover" role="status" aria-live="polite"></span>
           </p>
