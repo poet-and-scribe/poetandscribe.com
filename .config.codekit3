@@ -9301,8 +9301,8 @@
         "**\/*.kit"
       ],
       "removeFontFace" : 0,
-      "removeKeyframes" : 0,
-      "removeVariables" : 0,
+      "removeKeyframes" : 1,
+      "removeVariables" : 1,
       "safelistEntries" : [
 
       ],

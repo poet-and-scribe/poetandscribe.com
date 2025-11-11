@@ -11,14 +11,14 @@
   --theme-darkest:  oklch(0.2655 0.0368 225.94 / var(--color-opacity)) /* HEX: #0F2933 PRIOR: #0F2933 */;
   --color-opacity: 1;
 
-  --font-base: "RecVar";
+  --font-base: "RecVar", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI,Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif;
   --recursive-mono:0;
   --recursive-casl:0;
   --recursive-wght:400;
   --recursive-slnt:0;
   --recursive-CRSV:0.5;
 
-  --font-headings: "Bricolage Grotesque";
+  --font-headings: "Bricolage Grotesque", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI,Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif;
   --bricolage-wdth: 100;
   --bricolage-opsz: .5;
   --bricolage-wght: 800;
@@ -27,18 +27,10 @@
   --measure: 65ch;
   --wrapper-max-width: var(--measure);
 
-  --kerning: normal;
-  --kerning-loose: .05ch;
   --kerning-tight: -.04ch;
   --kerning-caps: .1ch;
 
   --leading: 1.45;
-  --leading-tight: .8;
-  --leading-short: 1.36;
-  --leading-slim: 1.18;
-  --leading-fine: 1.09;
-  --leading-flat: 1;
-  --leading-loose: 1.7;
 
   --focus-ring: 2px solid currentColor;
   --focus-ring-offset: 2px;
@@ -79,14 +71,6 @@
   --step-6: clamp(3.3592rem, 2.7828rem + 2.5621vw, 4.7684rem);
   /* Step 7: 64.4973px → 95.3674px */
   --step-7: clamp(4.0311rem, 3.2418rem + 3.508vw, 5.9605rem);
-
-  --space-2xs: clamp(0.5625rem, 0.5369rem + 0.1136vw, 0.625rem);
-  --space-xs: clamp(0.875rem, 0.8494rem + 0.1136vw, 0.9375rem);
-  --space-s: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
-  --space-m: clamp(1.6875rem, 1.6108rem + 0.3409vw, 1.875rem);
-  --space-l: clamp(2.25rem, 2.1477rem + 0.4545vw, 2.5rem);
-  --space-xl: clamp(3.375rem, 3.2216rem + 0.6818vw, 3.75rem);
-  --space-2xl: clamp(4.5rem, 4.2955rem + 0.9091vw, 5rem);
 
   --hdr-gradient: linear-gradient(
   in oklab,
@@ -289,7 +273,7 @@ h1{
 .lede{
   --bricolage-wdth: 100;
   --bricolage-wght: 420;
-  margin-block-start:var(--space-s);
+  margin-block-start:var(--step-0);
   padding-block-end:var(--gutter);
   font-size:var(--step-2);
   line-height:var(--leading);
@@ -310,11 +294,11 @@ article{
     margin-block-start:0;
   }
   h2 + p, h3 + p{
-    margin-block-start:var(--space-2xs);
+    margin-block-start:var(--step--4);
     text-wrap:balance;
   }
   p + p{
-    margin-block-start:var(--space-xs);
+    margin-block-start:var(--step--2);
   }
 }
 
