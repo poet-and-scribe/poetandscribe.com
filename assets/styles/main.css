@@ -533,10 +533,10 @@ footer{
 }
 
 .status{
-  background:var(--foreground-secondary);
-  color:var(--background-primary);
+  background:transparent;
+  color:var(--foreground-secondary);
   width:fit-content;
-  border:2px solid var(--foreground-tertiary);
+  border:2px solid transparent;
   border-radius:var(--step-0);
   display:inline-flex;
   align-items: center;
@@ -553,7 +553,7 @@ footer{
   margin-block-start:var(--step--2);
 
   svg{
-    fill:var(--background-primary);
+    fill:currentColor;
     width:24px;
   }
 }
