@@ -28,7 +28,6 @@
 
     <link rel="preload" as="font" href="<?php $site->url(); ?>/assets/fonts/BricolageGrotesque.woff2" crossorigin>
     <link rel="preload" as="font" href="<?php $site->url(); ?>/assets/fonts/Recursive_VF_1.085--subset_range_english_basic.woff2" crossorigin>
-    <link rel="preload" as="font" href="<?php $site->url(); ?>assets/fonts/Recursive_VF_1.085--subset_range_latin_1.woff2" crossorigin>
 
     <style>
       @font-face {
@@ -227,6 +226,7 @@
           <p>Designed & built by <a href="https://jonathanstephens.us">Jonathan Stephens</a> using <a href="https://atom-editor.cc/">Atom</a>, <a href="https://codekitapp.com/">CodeKit</a>, and <a href="https://github.com/">Github</a>.</p>
           <p>The type is set in free and open source variable fonts, <a href="https://ateliertriay.github.io/bricolage/">Bricolage Grotesque</a> & <a href="https://www.recursive.design/">Recursive Sans & Mono</a> designed by <a href="https://www.mathieutriay.com/">Mathieu Triay</a> and <a href="https://www.arrowtype.com/">Arrow Type</a>, respectively.</p>
           <p>Built with <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, Javascript; powered by <a href="https://getkirby.com">Kirby <abbr title="Content Management System">CMS</abbr></a>; hosted on <a href="https://hosting.com/">Hosting.com</a>.</p>
+          <p>This site is cleaner than 92% of webpages globally, with<br/> 0.05 g of CO<sub>2</sub>/view. Measured by <a href="https://www.websitecarbon.com/website/poetandscribe-com/">Website Carbon</a>.
           <p>Built in Raleigh, North Carolina.</p>
 
           <ul class="palette">
