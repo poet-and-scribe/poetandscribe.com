@@ -116,7 +116,7 @@
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p>We specialize in design systems and product strategy — whether you're establishing foundations, scaling what's working, or untangling what isn't. </p>
+          <p>We specialize in design operations and organizational leadership — whether you're establishing foundations, scaling what's working, or untangling what isn't. </p>
 
           <h3>Design systems</h3>
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
@@ -124,10 +124,10 @@
 
           <p>Currently available for short-to-mid-term projects.</p>
 
-          <h3>Product strategy</h3>
+          <h3>Organizational Leadership</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling an international enterprise to consulting agencies, start-ups, and governments.</p>
           <p>Each organization is unique, with their own rhythms of growth and scale. We focus on understanding <em>your</em> context, co-creating paths forward together.</p>
-          <p>If you’re looking for direction, optimizing features, or scaling a product, we offer consultancy & coaching sessions to support you.</p>
+          <p>If you’re looking for direction, scaling yourself, or scaling your team — we offer consultancy & coaching sessions to support you.</p>
 
           <h3>Can’t find what you need?</h3>
           <p>We’re happy to chat, even if the topic doesn't align <em>exactly</em> with what's listed above. We have breadth of skill & experience that can be put to use.</p>
@@ -153,7 +153,7 @@
 
           <p>Scribes preserve knowledge, translating it into collective memory. They're context-builders, shaping how humans gather & scale beyond any one individual's contribution.</p>
 
-          <p><strong>In product development,</strong> it's much of the same: translating user research into strategy, strategy into systems, and systems into delivery practices — weaving alignment throughout.</p>
+          <p><strong>Design leadership,</strong> is much of the same: translating research into strategy, strategy into systems, and systems into delivery practices — weaving alignment throughout.</p>
 
           <p>We help teams build that capacity.</p>
           <p>We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then,</em> we map potential paths to keep moving forward.</p>
@@ -165,7 +165,7 @@
           <ul>
             <li>
               <p><strong>Coalitions over competition.</strong>
-              Collective strength and collaboration instead of individual genius.</p>
+              Collective power through intentional collaboration instead of individual genius.</p>
             </li>
             <li>
               <p><strong>Spectrums over binaries.</strong>
@@ -173,7 +173,7 @@
             </li>
             <li>
               <p><strong>Curiosity over assumptions.</strong>
-              Asking questions and staying open instead of prescribing answers.</p>
+              Asking questions and staying open, seeking suitabke soltuons instead of prescribing answers.</p>
             </li>
             <li>
               <p><strong>Care over exploitation.</strong>
