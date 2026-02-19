@@ -116,7 +116,7 @@
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p>We specialize in design operations and organizational leadership — whether you're establishing foundations, scaling what's working, or untangling what isn't. </p>
+          <p>We specialize in design operations and organizational strategy — whether you're establishing foundations, scaling what's working, or untangling what isn't. </p>
 
           <h3>Design systems</h3>
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
