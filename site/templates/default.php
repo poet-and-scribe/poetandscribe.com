@@ -118,16 +118,16 @@
           <h2>What we do</h2>
           <p>We specialize in navigating the messy middle of purposeful strategy and practical delivery—whether you're: establishing foundations, scaling what's working, or untangling what isn't. </p>
 
-          <h3>Design systems</h3>
+          <h3>Practical Delivery</h3>
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
-          <p>Currently available for short-to-mid-term projects.</p>
+          <p>Currently available for short-to-mid term projects (3mo—9mo).</p>
 
-          <h3>Organizational Leadership</h3>
-          <p>We’ve worked in product development throughout our careers — from decades of scaling an international enterprise to consulting agencies, start-ups, and governments.</p>
-          <p>Each organization is unique, with their own rhythms of growth and scale. We focus on understanding <em>your</em> context, co-creating paths forward together.</p>
-          <p>If you’re looking for direction, scaling yourself, or scaling your team — we offer consultancy & coaching sessions to support you.</p>
+          <h3>Purposeful Strategy</h3>
+          <p>We’ve worked in product development throughout our careers — from decades of scaling a global enterprise to consulting agencies, start-ups, and governments.</p>
+          <p>Each organization is unique, with their own rhythms of growth and scale. We focus on understanding <em>your</em> contex and co-creating paths forward together.</p>
+          <p>If you’re looking for direction, scaling yourself, or scaling your team — we offer workshops & speaking engagements to support you.</p>
 
           <h3>Can’t find what you need?</h3>
           <p>We’re happy to chat, even if the topic doesn't align <em>exactly</em> with what's listed above. We have breadth of skill & experience that can be put to use.</p>
