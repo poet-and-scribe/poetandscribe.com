@@ -127,7 +127,7 @@
           <h3>Purposeful Strategy</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling a global enterprise to consulting agencies, start-ups, and governments.</p>
           <p>Each organization is unique, with their own rhythms of growth and scale. We focus on understanding <em>your</em> context and co-creating paths forward together.</p>
-          <p>If you’re looking for direction, scaling yourself, or scaling your team — we offer workshops & speaking engagements to support you.</p>
+          <p>If you’re looking for direction, scaling yourself, or have a team needs a change— we offer workshops & speaking engagements to support you.</p>
 
           <h3>Can’t find what you need?</h3>
           <p>We’re happy to chat, even if the topic doesn't align <em>exactly</em> with what's listed above. We have breadth of skill & experience that can be put to use.</p>
