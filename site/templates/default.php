@@ -122,7 +122,7 @@
           <p>Evolving your design systems? Improving internal collaboration? Wanting accessible, resilient products? We've got your back.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
-          <p>Currently available for short-to-mid term projects (3mo—9mo).</p>
+          <p>Currently available for short-to-mid term projects (3—9mo).</p>
 
           <h3>Purposeful Strategy</h3>
           <p>We’ve worked in product development throughout our careers — from decades of scaling a global enterprise to consulting agencies, start-ups, and governments.</p>
