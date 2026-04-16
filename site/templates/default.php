@@ -160,7 +160,7 @@
 
 
         <h3 id="principles">Guiding principles</h3>
-          <p>If you want to work with disruptors, trend-setters, wand-wavers, rockstars, or thing-breakers — that's not us.</p>
+          <p>If you want to work with disruptors, trend-setters, wand-wavers, rock-stars, or thing-breakers — that's not us.</p>
           <p>These are more us <strong>↓</strong> 
           <ul>
             <li>
