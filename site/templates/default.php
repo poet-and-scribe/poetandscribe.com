@@ -116,7 +116,7 @@
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p>We specialize in the messy middle of creating purposeful strategy with practical delivery operations—whether you're: establishing foundations, scaling what's working, or untangling what isn't. </p>
+          <p>We specialize in navigating the messy middle of purposeful strategy and practical delivery—whether you're: establishing foundations, scaling what's working, or untangling what isn't. </p>
 
           <h3>Design systems</h3>
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
