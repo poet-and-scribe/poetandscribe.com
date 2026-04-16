@@ -110,13 +110,13 @@
       <article class="flow">
         <section id="about">
           <h2>About us</h2>
-          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez — senior quality specialist & product lead — and Jonathan Stephens — principal designer & product/tech director.</p>
-          <p style="--measure:50ch;">We work directly with your team, alongside agencies, or teaming with indie partners, depending on need.</p>
+          <p>Poet & Scribe was founded in 2022 by Sandra Ibañez, senior quality specialist & product lead, and Jonathan Stephens, principal designer & product development director.</p>
+          <p style="--measure:50ch;">We work directly with your team, alongside agencies, or teaming with indie partners—depending on need.</p>
         </section>
         <hr/>
         <section id="services">
           <h2>What we do</h2>
-          <p>We specialize in design operations and organizational strategy — whether you're establishing foundations, scaling what's working, or untangling what isn't. </p>
+          <p>We specialize in the messy middle of creating purposeful strategy with practical delivery operations—whether you're: establishing foundations, scaling what's working, or untangling what isn't. </p>
 
           <h3>Design systems</h3>
           <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
@@ -153,7 +153,7 @@
 
           <p>Scribes preserve knowledge, translating it into collective memory. They're context-builders, shaping how humans gather & scale beyond any one individual's contribution.</p>
 
-          <p><strong>Design leadership,</strong> is much of the same: translating research into strategy, strategy into systems, and systems into delivery practices — weaving alignment throughout.</p>
+          <p><strong>Design leadership,</strong> is much of the same: translating research into strategy, strategy into systems, and systems into practices — weaving alignment throughout.</p>
 
           <p>We help teams build that capacity.</p>
           <p>We work to understand where you’ve been, what you’ve learned, and what you’re actually trying to build. <em>Then,</em> we map potential paths to keep moving forward.</p>
@@ -173,11 +173,11 @@
             </li>
             <li>
               <p><strong>Curiosity over assumptions.</strong>
-              Asking questions and staying open, seeking suitabke soltuons instead of prescribing answers.</p>
+              Asking questions and staying open, seeking suitable solutions instead of prescribing answers.</p>
             </li>
             <li>
               <p><strong>Care over exploitation.</strong>
-              Protecting wellbeing and sustainability instead of maximizing extraction.</p>
+              Protecting well-being and sustainability instead of maximizing extraction.</p>
             </li>
             <li>
               <p><strong>Transparency over obscurity.</strong>
