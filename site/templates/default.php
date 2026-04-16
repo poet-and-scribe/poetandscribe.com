@@ -119,7 +119,7 @@
           <p>We specialize in navigating the messy middle of purposeful strategy and practical delivery—whether you're: establishing foundations, scaling what's working, or untangling what isn't. </p>
 
           <h3>Practical Delivery</h3>
-          <p>Fixing disjointed user interfaces? Improving internal efficiency? Building resilience into products? We've got your back.</p>
+          <p>Evolving your design systems? Improving internal collaboration? Wanting accessible, resilient products? We've got your back.</p>
           <p>We create <a href="https://designsystem.university/articles/what-is-a-design-system" title="A post by Dan Mall of Design Systems University defining six different types of design systems">all types of design systems</a> that're comprehensive and clear, delivering compounding value to users & your bottom line.</p>
 
           <p>Currently available for short-to-mid term projects (3mo—9mo).</p>
