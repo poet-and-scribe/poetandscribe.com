@@ -207,7 +207,7 @@
     <footer class="flow">
       <p class="status">
         <?= asset('assets/svg/hourglass-fill.svg')->read() ?>️
-        Now booking 2026 engagements
+        Booking 2026 engagements
       </p>
       <div class="theme-toggle" role="group" aria-label="Theme selector">
         <button class="theme-btn" data-theme-value="system" aria-pressed="false" title="Use system theme">
