@@ -137,11 +137,12 @@
           <p>We’ve built our careers working with digital product teams of diverse compositions & missions, including:</p>
           <ul>
             <li>Booking.com</li>
-            <li>United States' Space Force</li>
-            <li>Leantime.io</li>
             <li>Strategi Consulting</li>
+            <li>U.S. Space Force</li>
             <li>Trailmarks HQ</li>
+            <li>Leantime.io</li>
             <li>Smashing Boxes</li>
+            <li>N.C. State University</li>
           </ul>
         </section>
         <hr/>
